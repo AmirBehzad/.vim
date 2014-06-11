@@ -89,7 +89,7 @@ set tags=tags;/
 set virtualedit=block
 set mouse=n
 set ttymouse=xterm2
-set backupdir=~/tmp
+set backupdir=~/.tmp
 set wildmenu
 set wildignore=*.exe,*.dll,*.o,*.so,*.pyc,*.back,*.jpg,*.jpeg,*.png,*.gif,*.pdf
 set wildmode=list:full

@@ -8,5 +8,9 @@ I've customized it just a bit, with some stuff that I learned from [Athar](https
 
 ## Installation
 ```$ cd ~
+
 $ git clone https://github.com/AmirBehzad/.vim.git
+
 $ echo "source ~/.vim/.vimrc" > ~/.vimrc```
+
+$ mkdir ~/.tmp

@@ -14,4 +14,6 @@ $ git clone https://github.com/AmirBehzad/.vim.git
 
 $ echo "source ~/.vim/.vimrc" > ~/.vimrc
 
-$ mkdir ~/.tmp```
+$ mkdir ~/.tmp
+```
+

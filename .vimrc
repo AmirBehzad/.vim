@@ -59,7 +59,7 @@ set autoindent
 set backspace=indent,eol,start
 set nowrap
 
-# Line Numbers
+" Line Numbers
 set nu
 set rnu
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
@@ -126,15 +126,16 @@ inoremap <C-S-K> <Esc>:m .-2<CR>==gi
 vnoremap <C-S-K> :m '<-2<CR>gv=gv
 vnoremap <C-S-J> :m '>+1<CR>gv=gv
 
-# Map <Ctrl+N> to toggle relative line numbers
+" Map <Ctrl+N> to toggle relative line numbers
 nmap <C-N> :set invrnu<CR>
 
-# switch the line-number style, in normal mode, and insert mode
+" switch the line-number style, in normal mode, and insert mode
 au FocusLost * :set number
 au FocusGained * :set relativenumber
 au InsertEnter * :set number
 au InsertLeave * :set relativenumber
 
-# Use F2 to toggle set paste
+" Use F2 to toggle set paste
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
+

@@ -2,7 +2,7 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set runtimepath+=~/.vim/bundle/vundle/
+set runtimepath+=~/.vim/.vim/bundle/vundle/
 call vundle#rc()
 
 " Bundles here:

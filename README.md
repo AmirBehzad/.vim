@@ -7,10 +7,11 @@ This is initially forked from [farzadghanei/dotfiles](https://github.com/farzadg
 I've customized it just a bit, with some stuff that I learned from [Athar](https://github.com/atharh).
 
 ## Installation
-```$ cd ~
+```
+$ cd ~
 
 $ git clone https://github.com/AmirBehzad/.vim.git
 
-$ echo "source ~/.vim/.vimrc" > ~/.vimrc```
+$ echo "source ~/.vim/.vimrc" > ~/.vimrc
 
-$ mkdir ~/.tmp
+$ mkdir ~/.tmp```

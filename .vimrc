@@ -139,3 +139,12 @@ au InsertLeave * :set relativenumber
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_macvim")
+    set guifont=Monaco:h14
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif

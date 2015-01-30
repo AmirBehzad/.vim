@@ -93,6 +93,7 @@ set backupdir=~/.tmp
 set wildmenu
 set wildignore=*.exe,*.dll,*.o,*.so,*.pyc,*.back,*.jpg,*.jpeg,*.png,*.gif,*.pdf
 set wildmode=list:full
+set colorcolumn=80
 
 syntax on
 colorscheme colorfulnight

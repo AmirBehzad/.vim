@@ -117,6 +117,8 @@ map <Leader>gdm :Git diff %<CR>
 map <Leader>gdf :Gdiff<CR>
 map <Leader>gg :Git 
 
+map <Enter> i
+
 nmap <F1> <Esc>
 imap <F1> <Esc>
 

@@ -22,6 +22,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mileszs/ack.vim'
 Bundle 'ddollar/nerdcommenter'
 Bundle 'ervandew/supertab'
+Bundle 'burnettk/vim-angular'
 
 Bundle 'majutsushi/tagbar'
   nmap <F4> :TagbarToggle<CR>
@@ -99,6 +100,7 @@ set colorcolumn=120
 syntax on
 colorscheme gotham256 
 
+hi colorColumn ctermbg=1
 
 " :help last-position-jump
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif

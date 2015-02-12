@@ -17,6 +17,6 @@ $ echo "source ~/.vim/.vimrc" > ~/.vimrc
 
 $ mkdir ~/.tmp
 
-$ vim +PluginInstall +qall
+$ vim +BundleInstall +qall
 ```
 

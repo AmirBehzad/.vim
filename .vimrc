@@ -96,7 +96,7 @@ set wildmode=list:full
 set colorcolumn=120
 
 syntax on
-colorscheme colorfulnight
+colorscheme gotham256 
 
 
 " :help last-position-jump
@@ -143,6 +143,7 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 
 if has("gui_running")
+  colorscheme gotham
   if has("gui_gtk2")
     set guifont=Inconsolata\ 12
   elseif has("gui_macvim")

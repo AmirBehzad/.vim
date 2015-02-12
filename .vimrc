@@ -32,6 +32,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-scripts/The-NERD-tree'
   map <F3> :NERDTreeToggle<CR>
   let NERDTreeWinPos = 'left'
+  let NERDTreeIgnore = ['\.pyc$']
 
 " YouCompeleteMe requires vim 7.3+
 " Bundle 'Valloric/YouCompleteMe'

@@ -159,3 +159,10 @@ if has("gui_running")
     set guifont=Consolas:h11:cANSI
   endif
 endif
+
+" map ctrl+v as paste in Insert mode
+" borrowed from: http://superuser.com/a/189198
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+

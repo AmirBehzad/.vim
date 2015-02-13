@@ -52,6 +52,7 @@ Bundle 'Lokaltog/vim-powerline'
 " lang specific modules
 Bundle 'c9s/perlomni.vim'
 Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'joonty/vdebug.git'
 
 filetype plugin indent on     " required!
 

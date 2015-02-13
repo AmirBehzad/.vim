@@ -89,13 +89,17 @@ set showmatch
 set t_Co=256
 set tags=tags;/
 set virtualedit=block
-set mouse=n
+set mouse=a
 set ttymouse=xterm2
 set backupdir=~/.tmp
 set wildmenu
 set wildignore=*.exe,*.dll,*.o,*.so,*.pyc,*.back,*.jpg,*.jpeg,*.png,*.gif,*.pdf
 set wildmode=list:full
 set colorcolumn=120
+set langmenu=en_US.UTF-8
+
+set guioptions-=T
+set mousemodel=popup
 
 syntax on
 colorscheme gotham256 

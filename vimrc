@@ -5,15 +5,7 @@ filetype off                   " required!
 set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" Bundles here:
-"
-" shortnames come from http://github.com
-" long names could include a git repo URL
-"
-" Run :BundleInstall! to install/update bundles
-"
-" let Vundle manage Vundle
-" required! 
+" let Vundle manage Vundle, required!
 Plugin 'gmarik/vundle'
 
 Plugin 'tpope/vim-fugitive'
@@ -37,6 +29,7 @@ Plugin 'vim-scripts/The-NERD-tree'
 
 " YouCompeleteMe requires vim 7.3+
 " Bundle 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/syntastic'
 
 Plugin 'kien/ctrlp.vim'
   let g:ctrlp_working_path_mode = 0 " dont manage working directory.
@@ -45,9 +38,18 @@ Plugin 'kien/ctrlp.vim'
   \ 'file': '\v\c\.(swf|bak|png|gif|mov|ico|jpg|pdf|pyc)$',
   \ }
 
-Plugin 'Lokaltog/vim-powerline'
-  let g:Powerline_symbols = 'fancy'
-  highlight clear SignColumn
+Plugin 'bling/vim-airline'
+  let g:airline_symbols = {}
+  let g:airline_theme             = 'luna'
+" vim-powerline symbols
+  let g:airline_left_sep          = '⮀'
+  let g:airline_left_alt_sep      = '⮁'
+  let g:airline_right_sep         = '⮂'
+  let g:airline_right_alt_sep     = '⮃'
+  let g:airline_symbols.readonly  = '⭤'
+  let g:airline_symbols.linenr    = '⭡'
+  let g:airline_symbols.branch    = '⭠'
+  let g:airline_symbols.paste     = 'ρ'
 
 " lang specific modules
 Plugin 'c9s/perlomni.vim'

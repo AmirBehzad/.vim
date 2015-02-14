@@ -52,6 +52,8 @@ Bundle 'Lokaltog/vim-powerline'
 " lang specific modules
 Bundle 'c9s/perlomni.vim'
 Bundle 'cakebaker/scss-syntax.vim'
+
+" Debuggers
 Bundle 'joonty/vdebug.git'
 
 filetype plugin indent on     " required!
@@ -62,9 +64,11 @@ set autoindent
 set backspace=indent,eol,start
 set nowrap
 
-" Line Numbers
-set nu
+" display relative line numbers
 set rnu
+" display absolute line number for current line
+set nu
+
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 set ruler

@@ -15,10 +15,10 @@ $ cd ~
 
 $ git clone https://github.com/AmirBehzad/.vim.git
 
-$ echo "source ~/.vim/.vimrc" > ~/.vimrc
+$ echo "source ~/.vim/vimrc" > ~/.vimrc
 
-$ mkdir ~/.tmp
+$ mkdir ~/.vim_backup
 
-$ vim +BundleInstall +qall
+$ vim +PluginInstall +qall
 ```
 

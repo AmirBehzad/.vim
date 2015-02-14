@@ -104,6 +104,7 @@ set colorcolumn=120
 set langmenu=en_US.UTF-8
 
 set guioptions-=T
+set guioptions-=m
 set mousemodel=popup
 
 syntax on

@@ -20,5 +20,15 @@ $ echo "source ~/.vim/vimrc" > ~/.vimrc
 $ mkdir ~/.vim_backup
 
 $ vim +PluginInstall +qall
+
+## Fonts for airline
+
+$ cd /tmp
+
+$ git clone https://github.com/powerline/fonts.git
+
+$ (cd fonts; ./install.sh)
+
+Make sure to configure your Terminal Emulator to use the font "DejaVu Sans for Powerline, 11"
 ```
 

@@ -153,7 +153,7 @@ set pastetoggle=<F2>
 if has("gui_running")
   colorscheme gotham
   if has("gui_gtk2")
-    set guifont=Inconsolata\ 10
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
   elseif has("gui_macvim")
     set guifont=Monaco:h14
   elseif has("gui_win32")

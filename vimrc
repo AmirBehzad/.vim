@@ -8,6 +8,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required!
 Plugin 'gmarik/vundle'
 
+Plugin 'whatyouhide/vim-gotham'
 Plugin 'tpope/vim-fugitive'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'Lokaltog/vim-easymotion'

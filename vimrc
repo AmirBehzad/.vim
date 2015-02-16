@@ -47,11 +47,13 @@ Plugin 'c9s/perlomni.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 
 Plugin 'luochen1990/rainbow'
-let g:rainbow_active = 1
-let g:rainbow_conf = {
-    \'guifgs':   ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
-    \'ctermfgs': ['red', 'green', 'yellow', 'blue']
-\}
+  let g:rainbow_active = 1
+  let g:rainbow_conf = {
+  \ 'guifgs':   ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+  \ 'ctermfgs': ['red', 'green', 'yellow', 'blue']
+  \ }
+
+Plugin 'vim-scripts/closetag.vim'
 
 " Debuggers
 Plugin 'joonty/vdebug.git'

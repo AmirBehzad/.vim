@@ -46,6 +46,13 @@ Plugin 'bling/vim-airline'
 Plugin 'c9s/perlomni.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 
+Plugin 'luochen1990/rainbow'
+let g:rainbow_active = 1
+let g:rainbow_conf = {
+    \'guifgs':   ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+    \'ctermfgs': ['red', 'green', 'yellow', 'blue']
+\}
+
 " Debuggers
 Plugin 'joonty/vdebug.git'
 
@@ -87,6 +94,7 @@ set cindent
 set showcmd
 set showmatch
 set t_Co=256
+:
 set tags=tags;/
 set virtualedit=block
 set mouse=a

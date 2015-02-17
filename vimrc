@@ -31,6 +31,7 @@ Plugin 'vim-scripts/The-NERD-tree'
 " YouCompeleteMe requires vim 7.3+
 " Bundle 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-commentary'
 
 Plugin 'kien/ctrlp.vim'
   let g:ctrlp_working_path_mode = 0 " dont manage working directory.

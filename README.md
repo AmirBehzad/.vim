@@ -25,6 +25,7 @@ $ git clone https://github.com/powerline/fonts.git /tmp/fonts
 
 $ (cd /tmp/fonts; ./install.sh)
 ```
-Make sure to configure your Terminal Emulator to use the font "DejaVu Sans for Powerline, 11"
+In Linux, configure your Terminal Emulator to use the font "Source Code Pro for Powerline, 11".
+In OSX, configure iTerm to use "Source Code Pro for Powerline, 12" for non-ASCII Font.
 
 

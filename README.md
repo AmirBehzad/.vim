@@ -31,5 +31,5 @@ widget "vim-main-window.*GtkForm" style "vimfix"
 EOF
 
 ```
-* In Linux, configure your Terminal Emulator to use the font "Source Code Pro for Powerline, 11".
+* In Linux, configure your Terminal Emulator to use the font "DejaVu Sans Mono for Powerline, 11".
 * In OSX, configure iTerm to use "Source Code Pro for Powerline, 12" for non-ASCII Font.

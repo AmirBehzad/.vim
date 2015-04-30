@@ -24,6 +24,12 @@ $ mkdir ~/.vim_backup
 $ echo "source ~/.vim/vimrc" > ~/.vimrc
 
 $ vim +PluginInstall +qall
+
+$ cat <<EOF >> ~/.gtkrc-2.0
+style "vimfix" { bg[NORMAL] = "#0c1014" }
+widget "vim-main-window.*GtkForm" style "vimfix"
+EOF
+
 ```
 * In Linux, configure your Terminal Emulator to use the font "Source Code Pro for Powerline, 11".
 * In OSX, configure iTerm to use "Source Code Pro for Powerline, 12" for non-ASCII Font.

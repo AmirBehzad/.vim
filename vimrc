@@ -112,6 +112,8 @@ set langmenu=en_US.UTF-8
 
 set guioptions-=T
 set guioptions-=m
+set guioptions-=r " Removes right hand scroll bar
+set guioptions-=L
 set mousemodel=popup
 
 set fillchars+=vert:\ 

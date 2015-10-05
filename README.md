@@ -33,3 +33,7 @@ EOF
 ```
 * In Linux, configure your Terminal Emulator to use the font "DejaVu Sans Mono for Powerline, 11".
 * In OSX, configure iTerm to use "Source Code Pro for Powerline, 12" for non-ASCII Font.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/amirbehzad/.vim/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

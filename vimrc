@@ -16,6 +16,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'ddollar/nerdcommenter'
 Plugin 'ervandew/supertab'
 Plugin 'burnettk/vim-angular'
+Plugin 'vivien/vim-linux-coding-style'
 
 Plugin 'majutsushi/tagbar'
   nmap <F4> :TagbarToggle<CR>

@@ -41,7 +41,8 @@ Plugin 'kien/ctrlp.vim'
   \ 'file': '\v\c\.(swf|bak|png|gif|mov|ico|jpg|pdf|pyc)$',
   \ }
 
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
   let g:airline_theme             = 'luna'
   let g:airline_powerline_fonts = 1
 

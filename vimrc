@@ -118,6 +118,8 @@ set guioptions-=r " Removes right hand scroll bar
 set guioptions-=L
 set mousemodel=popup
 
+set clipboard=unnamed
+
 set fillchars+=vert:\ 
 
 syntax on
